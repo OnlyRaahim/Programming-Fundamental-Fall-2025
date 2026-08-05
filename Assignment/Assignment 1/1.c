@@ -13,7 +13,9 @@ float calculateInsuranceCharges(float insuranceRate, float dailyrent){
 }
 
 void generateInvoice(float dailyRent,float lateReturnfine,float insuranceCharges){
+    
     float total=dailyRent+lateReturnfine+insuranceCharges;
+    
     printf("\n---Invoice---\n");
     printf("Daily Rent Is: %.2f\n",dailyRent);
     printf("Late Return Fine Is: %.2f\n",lateReturnfine);
@@ -25,7 +27,7 @@ int main(){
     int days,latedays;
     float rentperday,fineperday,insuranceRate;
 
-    printf("Enter Rental Days: ");
+    printf("\nEnter Rental Days: ");
     scanf("%d",&days);
 
     printf("Enter Rent Per Days: ");
