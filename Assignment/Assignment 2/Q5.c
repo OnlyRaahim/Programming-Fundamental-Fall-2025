@@ -10,7 +10,7 @@ struct Student
 struct Student s[100];
 int count = 0;
 
-// Add Student
+
 void addStudent()
 {
     printf("\nEnter Roll Number: ");
@@ -26,7 +26,7 @@ void addStudent()
     printf("Student Added Successfully!\n");
 }
 
-// Search Student
+
 void searchStudent()
 {
     int roll, found = 0;
@@ -49,7 +49,7 @@ void searchStudent()
         printf("Student Not Found!\n");
 }
 
-// Update Student
+
 void updateStudent()
 {
     int roll, found = 0;
@@ -76,7 +76,7 @@ void updateStudent()
         printf("Student Not Found!\n");
 }
 
-// Delete Student
+
 void deleteStudent()
 {
     int roll, found = 0;
@@ -104,7 +104,7 @@ void deleteStudent()
         printf("Student Not Found!\n");
 }
 
-// Display Topper
+
 void displayTopper()
 {
     if (count == 0)
