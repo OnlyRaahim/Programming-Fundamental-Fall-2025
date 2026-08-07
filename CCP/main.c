@@ -20,6 +20,7 @@ void addFlight(){
         printf("Flight list is full!\n"); 
         return; 
     }
+    
     int num,dest,time;
 
     printf("Enter Flight Number: ");
@@ -102,7 +103,7 @@ void updateFlight(){
     if(scanf("%d",&num)!=1){
         printf("Invalid Flight Number!\n");
         clearInputBuffer();
-        return 0;
+        return;
     }
 
     int i=findFlight(num);
