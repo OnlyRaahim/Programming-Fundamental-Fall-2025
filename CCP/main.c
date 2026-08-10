@@ -28,7 +28,6 @@ void addFlight(){
     printf("Invalid Flight Number!\n");
     clearInputBuffer();
     return;
-    
     }
 
     if(findFlight(num)!=-1){ 
